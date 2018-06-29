@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void populateArrayItems(){
         lecture();
-        //todoItems = new ArrayList<String>();
+        todoItems = new ArrayList<String>();
         //todoItems.add("Element 1");
         aToDoAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, todoItems);
     }
